@@ -1,3 +1,91 @@
-p {
-  color: green;
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(199, 196, 191);
 }
+
+#container {
+    width: 700px;
+    margin: 50px 400px 50px 400px;
+    box-shadow: 0 2px 4px;
+    padding: 40px 80px 40px 80px;
+    background: white;   
+}
+
+#resume-picture img {
+    height: 190px;
+    float: right;
+    box-shadow: 0 2px 4px; 
+    margin: 10px 100px 0 0;
+}
+
+#title h1 {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(66, 116, 255);
+}
+
+#title h2 {
+    font-size: 22px;
+    padding-top: 8px;
+    margin: 0;  
+}
+
+#contact img {
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+#header, #summary, #work, #education {
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgba(88, 85, 85, 0.1);
+    padding-bottom: 20px;
+}
+
+h1, h2, h5 {
+    font-weight: lighter;
+}
+
+h3 {
+    color: rgb(66, 116, 255);
+    font-weight: bold;
+}
+
+#summary p {
+    margin-left: 40px;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 0 0 5px 40px;
+}
+
+.date {
+    width: fit-content;
+    float: right;
+    font-size: medium;
+    padding: 5px;
+}
+
+h5 {
+    margin: 0 0 20px 40px;
+    background-color: rgb(66, 116, 255, 0.2);
+    font-size: medium;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 20px 0 20px 90px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
